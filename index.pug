@@ -1,0 +1,23 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    script(src='index.js')
+    link(rel='Stylesheet', href='style.css')
+    title='Non-Euclidean Tiles'
+  body
+    canvas
+    div#panel
+      h1 Non-Euclidean Grid
+      hr
+      span Use WASD or the Arrow Keys to move
+      p.
+        While the world is shown top-down, you see only what the central blue dot sees. As the world is non-euclidean, parts of it quickly move out of view. Think of it as a world with many portals.
+      p#error2d.error
+        span ERROR:
+        br
+        span Rendering to a 2D canvas is disabled
+      div.footer
+        a(href='https://github.com/sourcedennis/non-euclidean-grid/') Source Code
+        span |
+        a(href='#') Blog Post
