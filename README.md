@@ -2,8 +2,7 @@
 
 An interactive demo that renders a non-Euclidean 2D grid.
 
-[Demo](https://dennis.life/demo/non-euclidean-grid/)
-[Blog Post](https://blog.dennis.life/2020/08/05/non-euclidean-grid/)
+[Demo](https://dennis.life/demo/non-euclidean-grid/) - [Blog Post](https://blog.dennis.life/2020/08/05/non-euclidean-grid/)
 
 ![Non-Euclidean Grid](example.png)
 
