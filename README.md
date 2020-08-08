@@ -8,7 +8,7 @@ An interactive demo that renders a non-Euclidean 2D grid.
 
 ## Building
 
-Building requires [Node.js](https://nodejs.org/), the TypeScript compiler (`npm install -g typescript`), Pug (`npm install -g pug`), and Sass (`npm install -g sass`).
+Building requires [Node.js](https://nodejs.org/), the TypeScript compiler (`npm install -g typescript`), Pug (`npm install -g pug-cli`), and Sass (`npm install -g sass`).
 
 * Build HTML with: `pug index.pug`
 * Build SASS with: `sass style.sass style.css --no-source-map --style compressed`
@@ -18,7 +18,7 @@ Finally, the JavaScript file on the demo website is further optimized with the [
 ```
 closure-compiler --js index.js --js_output_file index.min.js
 ```
-Otherwise, rename `index.js` to `index.min.js` (as the HTML file references the file by that)
+Otherwise, rename `index.js` to `index.min.js` (as the HTML file references the file by that name)
 
 ## License
 BSD-3 - See the `LICENSE` file
